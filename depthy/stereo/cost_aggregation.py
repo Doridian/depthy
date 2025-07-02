@@ -86,7 +86,7 @@ def aggregate_costs(cost_volume: np.ndarray, p1: float = 10, p2: float = 120, pa
     start, end = -(h-1), w-1
 
     paths = ['vertical', 'horizontal', 'ascending', 'descending'] if path_num == 8 else ['vertical', 'horizontal']
-    aggregation_tensor = np.zeros(shape=(h, w, disparities, 2*len(paths)), dtype=np.float)
+    aggregation_tensor = np.zeros(shape=(h, w, disparities, 2*len(paths)), dtype=np.float64)
 
     for i, path in enumerate(paths):
         print('\tProcess paths {}...'.format(path), end='')

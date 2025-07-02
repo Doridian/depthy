@@ -1,0 +1,16 @@
+[project]
+name = "depthy"
+version = "0.1.0"
+description = " depth map computation "
+readme = "README.rst"
+requires-python = ">=3.12"
+dependencies = [
+    "color-space-converter>=0.1.4",
+    "docutils>=0.21.2",
+    "imageio>=2.37.0",
+    "matplotlib>=3.10.3",
+    "numpy>=2.3.1",
+    "opencv-python-headless>=4.11.0.86",
+    "requests>=2.32.4",
+    "scipy>=1.16.0",
+]

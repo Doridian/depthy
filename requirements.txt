@@ -1,8 +1,0 @@
-numpy==1.21
-scipy==1.4.1
-imageio
-matplotlib==3.3.3
-requests
-docutils
-color-space-converter==0.1.4
-opencv-python-headless
