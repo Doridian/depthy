@@ -1,7 +1,7 @@
 [project]
 name = "depthy"
 version = "0.1.0"
-description = " depth map computation "
+description = "depth map computation"
 readme = "README.rst"
 requires-python = ">=3.12"
 dependencies = [
